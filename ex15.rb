@@ -1,7 +1,7 @@
 # define a var as the first argument in CLI
 filename = ARGV.first
 
-# telling the txt var to open a file
+# tell the txt var to open a file
 txt = open(filename)
 
 # output what file you are reading
