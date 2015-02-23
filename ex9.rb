@@ -7,7 +7,7 @@ months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 puts "Here are the days : #{days}"
 puts "Here are the months: #{months}"
 
-# put string opened with """ to allow multilines and closed with """
+# put string opened with three double quotes (""") to allow multiline string input and closed with """
 puts """
 There's something going in here.
 With the three double-quotes.
