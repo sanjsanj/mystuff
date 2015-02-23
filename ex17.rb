@@ -1,6 +1,2 @@
-
-out_file = open(ARGV[1], 'w')
-out_file.write(open(ARGV[0]).read)
-
-out_file.close
-open(ARGV[0]).close
+# Optimise ex17.rb to 1 line
+open(ARGV[1], 'w').write(open(ARGV[0]).read); open(ARGV[1]).close; open(ARGV[0]).close
