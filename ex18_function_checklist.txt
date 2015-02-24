@@ -1,0 +1,13 @@
+When creating your function:
+----------------------------
+Did you start your function with def?
+Does your function name have only characters and underscores?
+After the function name did you put an open parenthesis followed by your arguments followed by a close parenthesis?
+Did you make each argument unique?
+Did you indent all lines of code within the function space?
+Did you end your function with end lined up with def?
+
+When running your function:
+---------------------------
+Did you call/use/run this function by typing its name?
+Did you put the values you want the function to use in parenthesis after the function name?
