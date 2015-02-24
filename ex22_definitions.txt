@@ -1,0 +1,34 @@
+A text list of the symbols used in previous exercises and their definitions, as I understand them
+
+puts 
+""
+"""
+()
+#{}
+*, /, +, -
+%
+>, >=, <, <=
+=
+==
+#
+true, false
+\t
+\n
+var
+ARGV
+ARGV.first
+ARGV[#]
+gets.chomp
+$stdin
+$stdin.gets
+open(#, 'w')
+.read
+.truncate(#)
+print
+.write
+.close
+(*args)
+def
+end
+.seek(#)
+return
