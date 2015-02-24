@@ -1,34 +1,34 @@
 A text list of the symbols used in previous exercises and their definitions, as I understand them
 
-puts 
-""
-"""
-()
-#{}
-*, /, +, -
-%
->, >=, <, <=
-=
-==
-#
-true, false
-\t
-\n
-var
-ARGV
-ARGV.first
-ARGV[#]
-gets.chomp
-$stdin
-$stdin.gets
-open(#, 'w')
-.read
-.truncate(#)
-print
-.write
-.close
-(*args)
-def
-end
-.seek(#)
-return
+puts              Output a string to the stdout followed by a new line
+""                Quote marks to identify a string, interchangeable with '', can be escaped
+"""               Start a multiline string, end with """
+()                Parentheses used to sub-calculate data or provide parameters or arguments
+#{}               Provides the result of a var or function
+*, /, +, -        Standard maths symbols, can be used on integers, floats and strings.  PEMDAS
+%                 Modulus used to supply the remainder of a division between 2 numbers, also used in place of # for multiple variables
+>, >=, <, <=      Greater than, greater than or equal, less than, less than or equal
+=                 Literally 'is', assigns values to vars
+==                Conducts test 'Is the same as'
+#                 Used to comment something out
+true, false       True and false objects
+\t                Escape sequence to tab a line in
+\n                Escape sequence to start a new line
+var               Any variable to be used globally, or locally within a function
+ARGV              Argument variable, supplied from the CLI when running the program
+ARGV.first        Calls the first arg var
+ARGV[#]           Calls the #-number argument, 0...inf
+gets.chomp        Wait for input from stdin then chomp off the return
+$stdin            Defines keyboard input, as it's the default standard input method
+$stdin.gets       Wait for RETURN
+open(#, 'w')      Opens a file in (w)write mode, defaults to (r)read if no flag given
+.read             Reads the object it is a method to
+.truncate(#)      Truncates/reduces the object to #-bytes
+print             Outputs given object without line break
+.write            Writes to the given file
+.close            Closes the given file
+(*args)           Allows for multiple arguments for use in a function
+def               To define a function, aka a mini script
+end               Always used to end a function
+.seek(#)          Seeks to #-bytes in its object
+return            The default method for the last line of any function, returns the calculated value to whatever is calling it
