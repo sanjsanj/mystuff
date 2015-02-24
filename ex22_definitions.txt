@@ -10,17 +10,19 @@ puts              Output a string to the stdout followed by a new line
 >, >=, <, <=      Greater than, greater than or equal, less than, less than or equal
 =                 Literally 'is', assigns values to vars
 ==                Conducts test 'Is the same as'
-#                 Used to comment something out
+#                 Used to comment something out, anything that follows is not seen by the interpreter
 true, false       True and false objects
 \t                Escape sequence to tab a line in
 \n                Escape sequence to start a new line
+\\                Escapes a backslash
 var               Any variable to be used globally, or locally within a function
 ARGV              Argument variable, supplied from the CLI when running the program
 ARGV.first        Calls the first arg var
 ARGV[#]           Calls the #-number argument, 0...inf
 gets.chomp        Wait for input from stdin then chomp off the return
-$stdin            Defines keyboard input, as it's the default standard input method
+$stdin            Defines keyboard input, as it's the default standard input method.  Used with methods when ARGV is used as well, to differentiate between the two
 $stdin.gets       Wait for RETURN
+File              With a capital F, used to define and enact file options
 open(#, 'w')      Opens a file in (w)write mode, defaults to (r)read if no flag given
 .read             Reads the object it is a method to
 .truncate(#)      Truncates/reduces the object to #-bytes
