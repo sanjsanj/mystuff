@@ -1,5 +1,5 @@
 puts "Let's practice everything."
-puts 'You\'d need to know \'bout escapes with \\ that do \nnewlines and \ttabs.'
+puts "You\'d need to know \'bout escapes with \\ that do \nnewlines and \ttabs."
 
 poem = <<END
 \tThe lovely world
