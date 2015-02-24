@@ -1,7 +1,4 @@
-last time promise
-and more
-even morerr!!!
-more
-MODIFIED asdasdas
-asdadasd
-asdasdasd
+This is line 1 of test.txt
+and line 2
+and line 3
+and line 4
