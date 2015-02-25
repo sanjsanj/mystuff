@@ -7,7 +7,10 @@ for number in the_count
   puts "This is count #{number}"
 end
 
-
+# my attempt at rewriting the first loop in the each style
+the_count.each do |number|
+  puts "This is another count #{number}"
+end
 
 # Prefered style for ruby
 fruits.each do |fruit|
