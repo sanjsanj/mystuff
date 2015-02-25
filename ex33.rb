@@ -16,19 +16,28 @@ increment = 1
 #
 
 # rewrite it as a FUNCTION
-def while_loop(nn, no_times, incr)
-  numbers = []
-  
-  while nn < no_times
-    puts "At the top i is #{nn}"
-    numbers.push(nn)
-    puts "Numbers now: ", numbers
-    nn += incr
-    puts "At the bottom i is #{nn}\n\n"
-  end
-  
-end
-while_loop(0,3,1)
+#def while_loop(nn, no_times, incr)
+#  numbers = []
+#  
+#  while nn < no_times
+#    puts "At the top i is #{nn}"
+#    numbers.push(nn)
+#    puts "Numbers now: ", numbers
+#    nn += incr
+#    puts "At the bottom i is #{nn}\n\n"
+#  end
+#end
+#while_loop(0,3,1)
+#
+
+# rewrite it as a for.each loop
+no_of_times.each { |i|
+  puts "At the top i is #{i}"
+  numbers.push(i)
+  puts "Numbers now: ", numbers
+  i += 1
+  puts "At the bottom i is #{i}\n\n"
+  }
 
 # rewrite it as a RANGE OPERATOR
 #(i...no_of_times).each do |z|
@@ -39,6 +48,7 @@ while_loop(0,3,1)
 #  puts "At the bottom i is #{z}\n\n"
 #end
 # it worked.  I don't bloody believe it, it worked  
+#
 
 #puts "The numbers: "
 #numbers.each {|num| puts num }
