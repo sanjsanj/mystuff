@@ -6,10 +6,10 @@ trucks = 15
 # if cars is greater than people
 if cars > people
   puts "We should take the cars."
-  # or else if cars are less than people
+  # or else if cars are less than people.  elsif is a branch that is followed only if the previous condition is false
 elsif cars < people
   puts "We should not take the cars."
-  # or else do this
+  # or else do this.  The default condition if none of the previous ones are true
 else
   puts "We can't decide."
 # end the if statement
