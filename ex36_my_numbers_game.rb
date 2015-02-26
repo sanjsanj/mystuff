@@ -5,8 +5,8 @@ guesses = 3
 prompt = "> "
 attempts = 0
 
-def winner(number)
-  puts "You won!  #{number} was right!"
+def winner(funcnum)
+  puts "#{funcnum} was right, you won!"
 end
 
 # greet and instruct
@@ -18,17 +18,13 @@ I'll give you #{guesses} guesses.'
 
 # ask guesses times
 (0...guesses).each do |i|
-  print number
+  print number  # for testing purposes
   print prompt
   uguess = $stdin.gets.chomp
     if uguess.to_i == number
       winner(number)
       break
     else
-      puts "Wrong!"
+      puts "Sorry, try again."
     end
 end
-
-# win
-
-# lose
