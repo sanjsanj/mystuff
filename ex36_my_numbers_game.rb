@@ -5,7 +5,6 @@ guesses = 3 # the number of guesses the player is allowed
 prompt = "Your guess: " # the prompt for player to input their guess
 attempts = 0 # number of attempts the player has made
 
-
 puts """
 Hi, play my guessing game!
 I'll think of a number between #{start_point} and #{end_point} and you guess what it is.
@@ -13,7 +12,7 @@ I'll give you #{guesses} guesses.'
 """
 
 (0...guesses).each do |i|
-  print number  # for testing purposes
+  # print number  # for testing purposes only
   print prompt
   uguess = $stdin.gets.chomp
     if uguess.to_i == number
