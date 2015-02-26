@@ -1,0 +1,18 @@
+Rules for if statements:
+------------------------
+Every if statement must have an else.
+If this else should never run because it doesn't make sense then you must use a die funtion in the else that prints out an error message and dies.
+Never nest ifs more than two deep and try to keep them one deep.
+Treat ifs like paragraphs, where each if-elsif-else grouping is like a seperate set of sentences.
+Boolean tests should be simple, if they are complex move their calculations to vars earlier in your function.
+
+Rules for loops:
+----------------
+Use a while-loop only to loop forever, and that means probably never.
+Use a for-loop for all other kinds of looping, especially for a fixed inteneded number of loops.
+
+Debugging:
+----------
+The die statement.
+Use puts to print out your vars so you can see what's going wrong.
+Make sure small vyte sized chunks of your code work.
