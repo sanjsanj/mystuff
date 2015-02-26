@@ -1,0 +1,88 @@
+KEYWORDS:
+---------
+BEGIN - Run this block when the script starts
+END - Run this block when the script ends
+alias - Create another name for a function
+and - Logical and, but lower priority than &&
+begin - Start a block, usually for exceptions
+break - Break out of a loop right now
+case - Case style conditional, like an if
+class - Define a new class
+def - Define a new function
+defined? - Is this class/function/etc defined already?
+do - Create a block that maybe takes a parameter
+else - Else conditional
+elsif - Else if conditional
+end - Ends block, functions, classes, everything
+ensure - Run this code whether an exception happens or not
+for - For loop syntax, .each syntax is preferred
+if - If conditional
+in - In part of for-loops
+module - Define a new module
+next - Skip to the next element of a .each iterator
+not - Logical not, use ! instead
+or - Logical or, ||
+redo - Rerun a code block exactly the same
+rescue - Run this code if an exception happens
+retry - In a rescue clause, sas to try the block again
+return - Returns a value from a function, optional
+self - The current object, class or module
+super - Parent class of this class
+then - Can optionally be used with if
+undef - Remove a function definition from a class
+unless - Inverse of if
+until - Inverse of while, execute a block as long as false
+when - While loop
+yield - Pause and transfer control to the code block
+
+DATA TYPES:
+-----------
+true - True boolean value
+false - False boolean value
+nil - Represents nothing or no value
+strings - Stores textual information
+numbers - Stores integers
+floats - Stores decimals
+arrays - Stores a list of things
+hashes - Stores a key=value pair
+
+STRING ESCAPE SEQUENCES:
+------------------------
+\\ - Backslash
+\' - Single quote
+\" - Double quote
+\a - Bell
+\b - Backspace
+\f - Formfeed
+\n - Newline
+\r - Carriage
+\t - Tab
+\v - Vertical tab
+
+OPERATORS:
+----------
++ - Add
+- - Subtract
+* - Multiply
+** - Power of (2 for squared, 0.5 for square root)
+/ - Divide
+% - Modulus
+. - Dot access
+:: - Colon access
+[] - List brackets
+! - Not
+< - Less than
+> - Greater than
+>= - Greater than or equal
+<= - Less than or equal
+<=> - Comparison
+== - Equal, is the same as
+=== - Equality ??
+!= - Not equal, not same as
+&& - And
+|| - Or
+.. - Range inclusive
+... - Range non-inclusive
+@ - Object scope
+@@ - Class scope
+$ - Global scope
