@@ -1,0 +1,11 @@
+1 - Write or draw out the problem
+2 - Extract key concepts and research them
+3 - Create a class hierarchy and object map for the concepts
+4 - Code the classes and a test to run them
+5 - Repeat and refine
+
+- Make a list of nouns and verbs then figure out how they're related.  Gives classes and objects
+- With the nouns: create outline or tree of how the concepts/classes are related
+- Take verbs and assign them as functions of a class
+- Write skeleton code with just this
+- Repeat and refine
